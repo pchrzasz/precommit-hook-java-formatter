@@ -14,7 +14,7 @@ class AggergationKata {
 
 	public static void main(String[] args) {
 		//Generate a basic array of students:
-		Student galina = new Student("Galina", 95, "Philology", Student.Gender.FEMALE);
+		        Student galina = new Student("Galina", 95, "Philology", Student.Gender.FEMALE);
 		Student anton = new Student("Anton", 90, "CS", Student.Gender.MALE);
 		Student jack = new Student("Jack", 82, "Philology", Student.Gender.MALE);
 		Student mike = new Student("Mike", 60, "Philology", Student.Gender.MALE);
