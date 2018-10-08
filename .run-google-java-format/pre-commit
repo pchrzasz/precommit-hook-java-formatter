@@ -2,5 +2,5 @@ CHANGED_JAVA_FILES=`git diff --staged --name-only --diff-filter=ACM | grep '\.ja
 if [ ! -z "$CHANGED_JAVA_FILES" ]; then
     # Choose one of these lines, depending on your build system; adjust the final echo statement too:
     ## echo "CHANGED_JAVA_FILES: ${CHANGED_JAVA_FILES}"
-    ./.run-google-java-format/check-google-java-format.py ${CHANGED_JAVA_FILES} || (echo "Try running:  make reformat" && exit 1)
+    ./.run-google-java-format/check-google-java-format.py ${CHANGED_JAVA_FILES} || (echo "Reformat your code" && exit 1)
 fi
