@@ -6,7 +6,6 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/** @author Paweł Chrząszczewski */
 class AggergationKata {
 
   public static void main(String[] args) {
